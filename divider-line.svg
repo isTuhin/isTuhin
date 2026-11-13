@@ -1,0 +1,19 @@
+<!-- cache-bust:10 -->
+<svg width="100%" viewBox="0 0 1000 6" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#475569" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2" width="1000" height="2" rx="1" fill="url(#bg-line)" />
+  <rect x="0" y="1.5" width="1000" height="3" rx="1.5" fill="#00FF99">
+    <animate attributeName="opacity"
+             values="0.2;0.55;0.85;0.55;0.2"
+             keyTimes="0;0.25;0.5;0.75;1"
+             dur="2.8s"
+             calcMode="linear"
+             repeatCount="indefinite" />
+  </rect>
+</svg>
