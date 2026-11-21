@@ -153,3 +153,5 @@
 </p>
 
 <!-- gh auth test: 2026-11-18 -->
+
+<!-- contribute test: 2026-11-21 -->
